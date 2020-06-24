@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    
+}
+    #home {
+        background: white;
+        color:black;
+        height:40px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding:10px;
+         cursor: pointer;
+    }
+    nav ul li{
+        margin:0 20px;
+        
+    }
+   nav ul li:hover{
+        color:blue;
+    }
+    .ads{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding:50px;
+    background-color: yellow;
+    }
+    
+
+    #lists{
+        display:flex;
+        justify-content:space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        min-height: 15vh;
+        min-width: 200vh; 
+        
+    }
+    #margin-purpose{
+       margin-left:80px;
+        
+    }
+    #margin-purpose1{
+        margin-left:50px;
+         
+     }
+    #lists ul{
+        list-style: none;
+    }
+    .flexitem{
+        width:50%
+    }
+    
+footer {
+    left: 20;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: left;
+  }
+  .list{
+      display: inline-grid;
+  }
+ 
+.link-button{
+    text-align:center;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top:10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    border-radius: 30px;
+    font-weight:bold;
+    margin-top: 50px;
+    margin-bottom:1px;
+
+}
+h1{
+    text-align: center;
+    background: yellow;   font-weight: 10000;
+    font-size: 40px;
+
+}
+p{
+    font-size: 13px;
+}
+#lists ul li{
+    color:gray;
+    cursor: pointer;
+}
+#lists ul li:hover{
+    color:red;
+}
+.gridcontainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: yellow;
+    padding:10px;
+}
+.gridcontainer div {
+    background-color:yellow;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
